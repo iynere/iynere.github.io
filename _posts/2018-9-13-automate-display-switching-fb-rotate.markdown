@@ -7,7 +7,7 @@ I do a lot of technical screensharing sessions, and showing off the strange asso
 
 Some searching revealed two command-line tools that can switch the primary display for users of multiple displays—"primary" in this case meaning, the one that shows my desktop directory structure.
 
-The first, [cscreen](http://pyehouse.com/cscreen), was developed by Pyhouse back in the PowerPC Mac days; however, it has been updated occasionally and still works quite well on new Intel Macs. The following command is all you need to switch your primary display:
+The first, [cscreen](http://pyehouse.com/cscreen), was developed by Pyehouse back in the PowerPC days; however, it has been updated occasionally and still works quite well on new Intel Macs. The following command is all you need to switch your primary display:
 
 ```cscreen -i $DISPLAY_ID -p```
 
