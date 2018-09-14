@@ -1,2 +1,4 @@
 port:  5000
 encoding: utf-8
+
+theme: jekyll-theme-minimal
