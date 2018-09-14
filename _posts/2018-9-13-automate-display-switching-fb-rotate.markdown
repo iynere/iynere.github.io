@@ -13,13 +13,13 @@ The first, [cscreen](http://pyehouse.com/cscreen), was developed by Pyehouse bac
 
 However, for whatever reason, `cscreen` has the unfortunate side-effect of also switching your display _arrangement_, i.e., if your secondary monitor is on your right, after the switch, you will have to scroll off the right edge of the secondary monitory (which now houses your "primary display") to reach your primary monitor (now housing your "secondary display").
 
-This is, unfortunately, a deal-breaker for me, as I need something I can quickly run before starting a screensharing session, and then quickly run after it ends so I can get back to my normal workflow.
+This is, unfortunately, a deal-breaker for me, as I need something I can quickly run before starting a screensharing session, and then quickly run its converse after the session ends, so I can get back to my normal workflow.
 
-The second, [fb-rotate](https://github.com/CdLbB/fb-rotate), is under even less active development, but still seems to work just fine. Its syntax is a bit less clear; however, it seems to run more quickly, and has no side effects to speak of. The equivalent switching command is as follows:
+The second, [fb-rotate](https://github.com/CdLbB/fb-rotate), is under even less active development, but works just fine. Its syntax is a bit less clear; however, it actually seems to run more quickly, and has no noticeable side effects to speak of. The equivalent switching command is as follows:
 
 ```fb-rotate -d $DISPLAY_ID -m```
 
-I've taken this a step further and written two very simple AppleScripts, containing the identical command but one with my primary display ID and the other with my seocondary display ID:
+I've taken this a step further and written two very simple AppleScripts, containing the identical command but one with my primary display ID and the other with my secondary display ID:
 
 ```do shell script "/usr/local/bin/fb-rotate -d $DISPLAY_ID -m"```
 
